@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Download music mp3">
+    <test name="Download music">
+        <parameter name="browserName" value="EDGE"></parameter>
+        <classes>
+            <class name="Download"></class>
+        </classes>
+    </test>
+</suite>
